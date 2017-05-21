@@ -9,8 +9,9 @@ This repository contains materials for the workshop.
 
 ## No Setup - Just for this workshop
 - Create a single-instace use Jupyter Notebook server using our JupyterHub setup.
-	- In your browser, go to [Cal-Adapt website](beta.cal-adapt.org). Login with any username and password.
-	- Upload the notebooks (.ipynb files) in this repo to the Jupyter Notebook server you just started.
+	- In your browser, go to our [Hub](http://35.185.246.188). Login with any username and password. Rememeber your username and password if you want to log in again. 
+	- Upload all the notebooks (.ipynb files) in this repo to the Jupyter Notebook server you just started.
+	- Open the index.ipynb notebook
 	- This JupyterHub setup will be accessible till May 26th, 2017.
 
 ## Setup - Beginner
@@ -22,35 +23,7 @@ This repository contains materials for the workshop.
 `
 
 ## Setup - Advanced
-- Clone the repo
-
-	```python
-	git clone https://github.com/berkeley-gif/calgis2017
-	```
-- Change directory
-
-	```python
-	cd calgis2017
-	```
-- Create a python3 virtualenv. How you do this will depend on Python3 setup on your computer. Below is an example of how I set it up.
-
-	```python
-	python3 -m venv env
-	```
-
-- Activate your virtual env
-
-	```python
-	source env/bin/activate
-	```
-
-- Install libraries. The Jupyter package is not listed in our `requirements.txt` file and is installed separately here because of some JupyterHub configuration issues.
-
-	```python
-	pip install -r requirements.txt
-	pip install jupyter
-	```
-
+- Clone the repo and install python packages `jupyter`, `pandas`, `requests`, and `seaborn`.
 - Launch the Jupyter Notebook app
 
 	```python
