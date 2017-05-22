@@ -8,7 +8,7 @@ This repository contains materials for the workshop.
 - [Cal-Adapt website](beta.cal-adapt.org)
 
 ## No Setup - Just for this workshop
-- Create a single-instace use Jupyter Notebook server using our JupyterHub setup.
+- Create a single-instance use Jupyter Notebook server using our JupyterHub setup.
 	- In your browser, go to our [Hub](http://35.185.246.188). Login with any username and password. Rememeber your username and password if you want to log in again. 
 	- Upload all the notebooks (.ipynb files) in this repo to the Jupyter Notebook server you just started.
 	- Open the index.ipynb notebook
